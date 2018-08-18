@@ -1,12 +1,12 @@
 {
 	"projects": [
 		{"id": 0,
-		"project_name": "tic tac toe",
-		"description": "single or multi player tic tac toe game",
-		"technologies": ["jquery", "javascript", "css"],
-		"live_link": "www.lskjdflkj.com",
-		"github_link": "www.github.com/slkjdlfk",
-		"image_urls": ["static/public/images/image_one.png", "static/public/images/image_two.png"]
+		"project_name": "Freelance job site",
+		"description": "Create and/or match projects with user's skills.",
+		"technologies": ["python", "django"],
+		"live_link": "https://jobs-website.herokuapp.com/accounts/login/",
+		"github_link": "https://github.com/cbaldwin20/project_12",
+		"image_urls": ["project_1/proj1_main.png", "project_1/proj1_two.png", "project_1/proj1_three.png"]
 		}
 	]
 }
