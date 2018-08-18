@@ -1,0 +1,13 @@
+{
+	"projects": [
+		{"id": 0,
+		"project_name": "tic tac toe",
+		"description": "single or multi player tic tac toe game",
+		"technologies": ["jquery", "javascript", "css"],
+		"live_link": "www.lskjdflkj.com",
+		"github_link": "www.github.com/slkjdlfk",
+		"image_urls": ["static/public/images/image_one.png", "static/public/images/image_two.png"]
+		}
+	]
+}
+
