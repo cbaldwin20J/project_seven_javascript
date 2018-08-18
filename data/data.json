@@ -7,6 +7,14 @@
 		"live_link": "https://jobs-website.herokuapp.com/accounts/login/",
 		"github_link": "https://github.com/cbaldwin20/project_12",
 		"image_urls": ["project_1/proj1_main.png", "project_1/proj1_two.png", "project_1/proj1_three.png"]
+		},
+
+		{"id": 1,
+		"project_name": "Bootstrap portfolio site",
+		"description": "A boostrap portfolio site that holds all my projects.",
+		"technologies": ["bootstrap", "sass", "css", "html"],
+		"live_link": "http://www.cbaldwinportfolio.com/",
+		"image_urls": ["project_2/proj2_main.png", "project_2/proj2_one.png", "project_2/proj2_two.png"]
 		}
 	]
 }
