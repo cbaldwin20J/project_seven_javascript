@@ -1,7 +1,7 @@
 {
 	"projects": [
 		{"id": 0,
-		"project_name": "Freelance job site",
+		"project_name": "Freelance Job Site",
 		"description": "Create and/or match projects with user's skills.",
 		"technologies": ["python", "django"],
 		"live_link": "https://jobs-website.herokuapp.com/accounts/login/",
@@ -10,11 +10,35 @@
 		},
 
 		{"id": 1,
-		"project_name": "Bootstrap portfolio site",
+		"project_name": "Bootstrap Portfolio Site",
 		"description": "A boostrap portfolio site that holds all my projects.",
 		"technologies": ["bootstrap", "sass", "css", "html"],
 		"live_link": "http://www.cbaldwinportfolio.com/",
 		"image_urls": ["project_2/proj2_main.png", "project_2/proj2_one.png", "project_2/proj2_two.png"]
+		},
+
+		{"id": 2,
+		"project_name": "Tic Tac Toe Game",
+		"description": "A tic tac toe multiplayer or versus computer game built with vanilla javascript.",
+		"technologies": ["javascript"],
+		"github_link": "https://github.com/cbaldwin20J/project_four_javascript",
+		"image_urls": ["project_3/proj3_main.png", "project_3/proj3_one.png", "project_3/proj3_two.png"]
+		},
+
+		{"id": 3,
+		"project_name": "User Profiles Fetch API",
+		"description": "Use Fetch API and javascript to gather user profiles and put them into a lightbox photogallery with a search bar, and make it look like the photoshop mockup.",
+		"technologies": ["javascript", "fetch api", "jquery"],
+		"github_link": "https://github.com/cbaldwin20J/project_five_javascript",
+		"image_urls": ["project_4/proj4_main.png", "project_4/proj4_one.png", "project_4/proj4_two.png"]
+		},
+
+		{"id": 4,
+		"project_name": "Node Data Scraper",
+		"description": "Scraper with node.js to gather contents from tshirt site and store the results in a csv file and errors in a log file.",
+		"technologies": ["javascript", "node"],
+		"github_link": "https://github.com/cbaldwin20J/project_six_javascript",
+		"image_urls": ["project_5/proj5_main.png", "project_5/proj5_one.png"]
 		}
 	]
 }
