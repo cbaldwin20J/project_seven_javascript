@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  section.grid-container
+    h1= `${error.message} - Status: ${error.status}`
+    a.linkColor(href='/') Go Home
+    div
+      pre.stack-trace= error.stack
+    

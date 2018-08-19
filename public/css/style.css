@@ -148,3 +148,22 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+
+
+
+.linkColor{
+  color: #4286f4;
+}
+.thumbnail, .image{
+  box-shadow: 5px 10px lightgrey; 
+}
+.lead{
+  background-color: lightblue;
+}
+h5 {
+  background-color: lightblue;
+}
+h1{
+  background-color: lightgrey;
+}

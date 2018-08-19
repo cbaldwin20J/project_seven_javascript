@@ -1,5 +1,9 @@
 const express = require('express');
 const app = express();
+const path = require('path');
+
+app.set('views', path.join(__dirname, 'views'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 // tip: '{ projects }' is an ES6 shortcut where it is the same thing
@@ -17,6 +21,13 @@ app.set('view engine', 'pug');
 // need '/project' that takes the id of the project that goes to 'project.pug'
 //          I think for this I will have to pass in the json data as variables for that project
 //          with the matching id.
+
+
+
+
+
+
+
 
 
 
@@ -54,9 +65,9 @@ app.use((req, res, next) => {
 // then it will find the 'app.use' with four parameters to throw
 // the error.
 app.use((err, req, res, next) => {
-  
+  res.locals.error = err;
   res.status(err.status);
-  console.log(err);
+  res.render('error');
 });
 
 
